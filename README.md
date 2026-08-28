@@ -51,7 +51,7 @@ Fora os projetos pessoais, sou responsável pelo backend do **TeachBack**, um pr
 
 ## 🏗️ Projetos em destaque
 
-- **[MedAgenda](https://github.com/MthsMotta/MedAgenda)** — API REST de agendamento de consultas médicas, com autenticação JWT, autorização por papéis (ADMIN, MÉDICO, PACIENTE) e regras de posse de recurso.
+- **[MedAgenda](https://github.com/MthsMotta/medagenda-backend)** — API REST de agendamento de consultas médicas, com autenticação JWT, autorização por papéis (ADMIN, MÉDICO, PACIENTE) e regras de posse de recurso.
 - **[tarefas-api](https://github.com/MthsMotta/tarefas-api)** — API de gerenciamento de tarefas, construída para aprofundar Docker, testes com JUnit/Mockito e containerização de banco de dados.
 - **[enquete-api](https://github.com/MthsMotta/enquete-api)** — Sistema de enquetes com CRUD completo, validação de votos e cálculo de percentual/ranking em tempo real.
 
