@@ -4,13 +4,12 @@
 
 ## 👨‍💻 Sobre mim
 
-Sou estudante de **Análise e Desenvolvimento de Sistemas** na USCS, com foco em **desenvolvimento backend com Java e Spring Boot**.
-
-Construo APIs REST completas do zero — desde a modelagem do domínio até autenticação, autorização e documentação — aplicando boas práticas de arquitetura em camadas (**Controller → Service → Repository**) e testes automatizados como parte natural do processo, não como etapa opcional.
-
-Tenho trabalhado com **Spring Security e JWT** para autenticação e controle de acesso baseado em papéis, **JPA/Hibernate** para persistência, e venho me aprofundando em **Docker** para containerização de aplicações e bancos de dados.
-
-Gosto de entender o "porquê" por trás de cada decisão técnica — desde a separação de responsabilidades entre camadas até detalhes de comportamento do Mockito em testes unitários — e trato cada projeto do portfólio como uma oportunidade de consolidar conceitos, não só entregar funcionalidade.
+Sou estudante de **Análise e Desenvolvimento de Sistemas** na USCS. Construo APIs REST em Java/Spring Boot como projetos de portfólio, cada um com um objetivo técnico específico:
+ 
+- No **MedAgenda**, implementei autorização por papel (ADMIN, MÉDICO, PACIENTE) com regras de posse de recurso — um paciente só acessa as próprias consultas, um médico só a própria agenda — usando JWT e Spring Security do zero, sem tutorial pronto.
+- No **tarefas-api**, o objetivo foi propositalmente diferente: praticar Docker e testes com JUnit/Mockito, incluindo cenários de erro e uso de `ArgumentCaptor` pra validar exatamente o que é enviado ao repository.
+  
+Fora os projetos pessoais, sou responsável pelo backend do **TeachBack**, um projeto de extensão universitária: uma plataforma de feedback acadêmico anônimo, onde professores criam grupos por disciplina e alunos respondem enquetes mensais sobre o andamento das aulas. O maior desafio de arquitetura é garantir anonimato real — a resposta do aluno nunca fica vinculada à sua identidade no banco, e esse vínculo só existe numa tabela isolada, acessada exclusivamente em caso de denúncia, com log de auditoria de todo acesso.
 
 ---
 
