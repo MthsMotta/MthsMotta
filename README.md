@@ -62,3 +62,16 @@ Gosto de entender o "porquê" por trás de cada decisão técnica — desde a se
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-da-motta)  
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:matheus.damotta01@gmail.com)
+
+---
+
+## 🐍 Atividade
+
+<picture>
+  ...
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MthsMotta/MthsMotta/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MthsMotta/MthsMotta/output/github-contribution-grid-snake.svg">
+  <img alt="cobrinha animada com contribuições" src="https://raw.githubusercontent.com/MthsMotta/MthsMotta/output/github-contribution-grid-snake.svg">
+</picture>
