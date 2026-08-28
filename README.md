@@ -68,9 +68,6 @@ Gosto de entender o "porquê" por trás de cada decisão técnica — desde a se
 ## 🐍 Atividade
 
 <picture>
-  ...
-</picture>
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MthsMotta/MthsMotta/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MthsMotta/MthsMotta/output/github-contribution-grid-snake.svg">
   <img alt="cobrinha animada com contribuições" src="https://raw.githubusercontent.com/MthsMotta/MthsMotta/output/github-contribution-grid-snake.svg">
