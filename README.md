@@ -8,8 +8,7 @@ Sou estudante de **Análise e Desenvolvimento de Sistemas** na USCS. Construo AP
  
 - No **MedAgenda**, implementei autorização por papel (ADMIN, MÉDICO, PACIENTE) com regras de posse de recurso — um paciente só acessa as próprias consultas, um médico só a própria agenda — usando JWT e Spring Security do zero, sem tutorial pronto.
 - No **tarefas-api**, o objetivo foi propositalmente diferente: praticar Docker e testes com JUnit/Mockito, incluindo cenários de erro e uso de `ArgumentCaptor` pra validar exatamente o que é enviado ao repository.
-  
-Fora os projetos pessoais, sou responsável pelo backend do **TeachBack**, um projeto de extensão universitária: uma plataforma de feedback acadêmico anônimo, onde professores criam grupos por disciplina e alunos respondem enquetes mensais sobre o andamento das aulas. O maior desafio de arquitetura é garantir anonimato real — a resposta do aluno nunca fica vinculada à sua identidade no banco, e esse vínculo só existe numa tabela isolada, acessada exclusivamente em caso de denúncia, com log de auditoria de todo acesso.
+- No **TeachBack**, projeto de extensão universitária onde sou responsável pelo backend, lidero a modelagem do banco e a camada de autenticação/autorização — hierarquia de papéis (admin, moderador, professor, aluno), JWT com Argon2, rate limiting de login e mais de 30 testes unitários. A arquitetura do projeto já prevê anonimato real nas respostas dos alunos, com o vínculo de identidade isolado numa tabela própria e acesso auditado — parte ainda em implementação.
 
 ---
 
@@ -51,6 +50,7 @@ Fora os projetos pessoais, sou responsável pelo backend do **TeachBack**, um pr
 
 ## 🏗️ Projetos em destaque
 
+- **[TeachBack](https://github.com/MthsMotta/teachback-backend)** — Plataforma de feedback acadêmico anônimo (projeto de extensão universitária, em desenvolvimento) — responsável pelo backend: autenticação JWT, hierarquia de autorização por papéis, rate limiting e cobertura de testes com Mockito.
 - **[MedAgenda](https://github.com/MthsMotta/medagenda-backend)** — API REST de agendamento de consultas médicas, com autenticação JWT, autorização por papéis (ADMIN, MÉDICO, PACIENTE) e regras de posse de recurso.
 - **[tarefas-api](https://github.com/MthsMotta/tarefas-api)** — API de gerenciamento de tarefas, construída para aprofundar Docker, testes com JUnit/Mockito e containerização de banco de dados.
 - **[enquete-api](https://github.com/MthsMotta/enquete-api)** — Sistema de enquetes com CRUD completo, validação de votos e cálculo de percentual/ranking em tempo real.
@@ -59,8 +59,7 @@ Fora os projetos pessoais, sou responsável pelo backend do **TeachBack**, um pr
 
 ## 📬 Contato
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-da-motta)  
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:matheus.damotta01@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-da-motta)
 
 ---
 
